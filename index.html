@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../G/Assets/CSS/loader.css">
+
+    <title>Gamevity - Filtered Load</title>
+</head>
+
+<body>
+    <div class="loader__wrap" role="alertdialog" aria-busy="true" aria-live="polite" aria-label="Loading…">
+        <div class="loader" aria-hidden="true">
+            <div class="loader__sq"></div>
+            <div class="loader__sq"></div>
+        </div>
+    </div>
+
+    <script>
+        function ScreenType() {
+            if (screen.width <= 700) {
+                document.location = "../G/Pages/Errors/device.html";
+            }
+
+            else {
+                document.location = "../G/Pages/home.html";
+            }
+        }
+
+        setTimeout(ScreenType, 1);
+    </script>
+</body>
+
+</html>
