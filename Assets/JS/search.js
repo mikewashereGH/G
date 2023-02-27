@@ -1,13 +1,13 @@
 let jsonData = `[
     {
-        "Name": "Crossy Road",
-        "Type": "Arcade",
+        "Name": "Infectio",
+        "Type": "Puzzle",
         "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
-        "Play": "../TR_Gamevity/Pages/Games/Crossy_Road/index.html",
-        "Open": "index.html",
-        "Date": "02/18/23",
-        "Time": "01:43 PM",
-        "Status": "I0",
+        "Play": "../Pages/Games/Infectio/index.html",
+        "Open": "home.html",
+        "Date": "02/27/23",
+        "Time": "10:59 AM",
+        "Status": "C0",
 	    "ID": "NA"
     }
 ]`
@@ -26,8 +26,8 @@ function search_jsonData() {
         if (
             obj.Name.toLowerCase().includes(input) ||
             obj.Type.toLowerCase().includes(input) ||
-            obj.Time.toLowerCase().includes(input) ||
             obj.Date.toLowerCase().includes(input) ||
+            obj.Time.toLowerCase().includes(input) ||
             obj.Status.toLowerCase().includes(input)
         ) {
             const elem = document.createElement("p")
@@ -54,13 +54,13 @@ function search_jsonData() {
                     experience through excellent design...
                 </div>
                 <div class="job-detail-buttons">
-                    <button class="search-buttons detail-button">Full Time</button>
-                    <button class="search-buttons detail-button">Min. 1 Year</button>
-                    <button class="search-buttons detail-button">Senior Level</button>
+                    <button class="search-buttons detail-button">${obj.Name}</button>
+                    <button class="search-buttons detail-button">${obj.Type}</button>
+                    <button class="search-buttons detail-button">${obj.Status}</button>
                 </div>
                 <div class="job-card-buttons">
-                    <button class="search-buttons card-buttons">Play Game</button>
-                    <button class="search-buttons card-buttons-msg">Open</button>
+                    <a href="www"><button class="search-buttons card-buttons">Play Game</button></a>
+                    <a href="url"><button class="search-buttons card-buttons-msg">Open</button></a>
                 </div>
             </div>
                 `
