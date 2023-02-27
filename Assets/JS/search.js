@@ -2,6 +2,7 @@ let jsonData = `[
     {
         "Name": "Infectio",
         "Type": "Puzzle",
+        "Description": "A simple and fun puzzle game where you have to infect all the blocks by switching colors.",
         "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
         "Play": "../Pages/Games/Infectio/index.html",
         "Open": "home.html",
@@ -50,8 +51,7 @@ function search_jsonData() {
                 </div>
                 <div class="job-card-title">${obj.Name}</div>
                 <div class="job-card-subtitle">
-                    The User Experience Designer position exists to create compelling and digital user
-                    experience through excellent design...
+                    ${obj.Description}
                 </div>
                 <div class="job-detail-buttons">
                     <button class="search-buttons detail-button">${obj.Name}</button>
