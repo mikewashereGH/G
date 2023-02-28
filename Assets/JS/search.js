@@ -60,7 +60,7 @@ function search_jsonData() {
                 return diffInDays;
             }
             
-            let diffrence = getNumberOfDays("2/1/2021", "3/1/2021");
+            let diffrence = getNumberOfDays(obj.Date, Date.now());
 
             const elem = document.createElement("p")
 
@@ -87,7 +87,7 @@ function search_jsonData() {
 
                     <div class="job-detail-buttons">
                         <button class="search-buttons detail-button">${obj.Type}</button>
-                        <button class="search-buttons detail-button">Min. 1 Year</button>
+                        <button class="search-buttons detail-button">${diffrence}</button>
                         <button class="search-buttons detail-button">Senior Level</button>
                     </div>
 
