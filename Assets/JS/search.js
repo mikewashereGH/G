@@ -6,7 +6,7 @@ let jsonData = `[
         "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
         "Play": "../Pages/Games/Infectio/index.html",
         "Open": "home.html",
-        "Date": "02/27/23",
+        "Date": "02/26/23",
         "Time": "10:59 AM",
         "Status": "C0",
 	    "ID": "NA"
