@@ -10,6 +10,18 @@ let jsonData = `[
         "Time": "10:59 AM",
         "Status": "C0",
 	    "ID": "NA"
+    },
+    {
+        "Name": "Multiplication",
+        "Type": "Math",
+        "Description": "A math game that is based on multiplication. It allows students to practice multiplication, while improving their speed and accuracy.",
+        "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
+        "Play": "../Pages/Games/Multiplication/index.html",
+        "Open": "home.html",
+        "Date": "02/27/23",
+        "Time": "07:50 PM",
+        "Status": "C0",
+	    "ID": "NA"
     }
 ]`
 
@@ -56,8 +68,8 @@ function search_jsonData() {
              <button class="search-buttons detail-button">Senior Level</button>
             </div>
             <div class="job-card-buttons">
-             <button class="search-buttons card-buttons">Apply Now</button>
-             <button class="search-buttons card-buttons-msg">Messages</button>
+             <button class="search-buttons card-buttons">Play Game</button>
+             <button class="search-buttons card-buttons-msg">Open Info</button>
             </div>
            </div>
                 `
