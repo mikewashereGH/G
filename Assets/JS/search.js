@@ -44,24 +44,6 @@ function search_jsonData() {
             obj.Time.toLowerCase().includes(input) ||
             obj.Status.toLowerCase().includes(input)
         ) {
-            function getNumberOfDays(start, end) {
-                const date1 = new Date(start);
-                const date2 = new Date(end);
-            
-                // One day in milliseconds
-                const oneDay = 1000 * 60 * 60 * 24;
-            
-                // Calculating the time difference between two dates
-                const diffInTime = date2.getTime() - date1.getTime();
-            
-                // Calculating the no. of days between two dates
-                const diffInDays = Math.round(diffInTime / oneDay);
-            
-                return diffInDays;
-            }
-            
-            let diffrence = getNumberOfDays(obj.Date, Date.now());
-
             const elem = document.createElement("p")
 
             elem.innerHTML = `
@@ -96,6 +78,26 @@ function search_jsonData() {
                         <button class="search-buttons card-buttons-msg">Information</button>
                     </div>
                 </div>
+
+                <script>
+                    function getNumberOfDays(start, end) {
+                        const date1 = new Date(start);
+                        const date2 = new Date(end);
+                    
+                        // One day in milliseconds
+                        const oneDay = 1000 * 60 * 60 * 24;
+                    
+                        // Calculating the time difference between two dates
+                        const diffInTime = date2.getTime() - date1.getTime();
+                    
+                        // Calculating the no. of days between two dates
+                        const diffInDays = Math.round(diffInTime / oneDay);
+                    
+                        return diffInDays;
+                    }
+                    
+                    let diffrence = getNumberOfDays(obj.Date, Date.now());
+                </script>
                 `
             x.appendChild(elem)
         }
