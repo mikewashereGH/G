@@ -70,7 +70,7 @@ function search_jsonData() {
             </div>
             <div class="job-card-buttons">
              <button class="search-buttons card-buttons">Play Game</button>
-             <button class="search-buttons card-buttons-msg">Open Info</button>
+             <button class="search-buttons card-buttons-msg">Information</button>
             </div>
            </div>
                 `
