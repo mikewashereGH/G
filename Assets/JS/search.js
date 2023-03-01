@@ -81,11 +81,9 @@ function search_jsonData() {
 
                     <div class="job-detail-buttons">
                         <button class="search-buttons detail-button">${obj.Type}</button>
-                        <button class="search-buttons detail-button">Added ${diffrence}D ago</button>
+                        <button class="search-buttons detail-button">Added ${diffrence} days ago</button>
                         <button class="search-buttons detail-button">Senior Level</button>
                     </div>
-
-                    <h6>Added ${diffrence}D ago</h6>
 
                     <div class="job-card-buttons">
                         <button class="search-buttons card-buttons">Play Game</button>
