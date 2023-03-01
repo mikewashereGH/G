@@ -86,8 +86,8 @@ function search_jsonData() {
                     </div>
 
                     <div class="job-card-buttons">
-                        <button class="search-buttons card-buttons">Play Game</button>
-                        <button class="search-buttons card-buttons-msg">Information</button>
+                        <a href="${obj.Play}"><button class="search-buttons card-buttons">Play Game</button></a>
+                        <a href="#"><button class="search-buttons card-buttons-msg">Information</button></a>
                     </div>
                 </div>
                 `
