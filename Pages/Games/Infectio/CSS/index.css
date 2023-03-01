@@ -91,7 +91,7 @@ color {
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	border-radius: .3em;
+	border-radius: 4px;
 }
 
 .new-game {
