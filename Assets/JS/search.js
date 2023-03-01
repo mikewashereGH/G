@@ -74,7 +74,7 @@ function search_jsonData() {
                     <div class="menu-dot"></div>
                 </div>
 
-                <div class="job-card-title">${obj.Name}</div>
+                <div class="job-card-title">${obj.Name}</div> <h6>Added ${diffrence} days ago</h6>
                     <div class="job-card-subtitle">
                         ${obj.Description}
                     </div>
