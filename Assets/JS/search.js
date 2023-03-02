@@ -6,21 +6,8 @@ let jsonData = `[
         "Preview": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
         "Play": "../Pages/Games/Infectio/index.html",
         "Open": "home.html",
-        "Date": "02/25/23",
+        "Date": "02/28/23",
         "Time": "10:59 AM",
-        "Status": "C0",
-	    "ID": "NA"
-    },
-    {
-        "Name": "Multiplication",
-        "Type": "Math",
-        "Storage": "None",
-        "Description": "A math game that is based on multiplication. It allows students to practice multiplication, while improving their speed and accuracy.",
-        "Preview": "https://play-lh.googleusercontent.com/M9xYsC4u-_LEfG7DeNeSGfgi7XXF0JajLfORnm9CoHGh9Vn5o_IH8V9aHUAmFEYA1Q=w240-h480-rw",
-        "Play": "../Pages/Games/Multiplication/index.html",
-        "Open": "home.html",
-        "Date": "02/25/23",
-        "Time": "07:50 PM",
         "Status": "C0",
 	    "ID": "NA"
     }
